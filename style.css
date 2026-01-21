@@ -1,0 +1,63 @@
+@import url(https://unpkg.com/ress/dist/ress.min.css);
+
+
+body {
+    background-color: #141414;
+}
+.pricing-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-plan {
+    flex: 1;
+    background-color: #202120;
+    max-width: 300px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.plan-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.plan-price {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.plan-features {
+    margin-bottom: 25px;
+    color: #7d7f7c;
+    list-style: none;
+}
+
+.plan-features li {
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7d7f7c;;
+}
+
+.plan-button {
+    background-color: blueviolet;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
